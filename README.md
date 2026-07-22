@@ -30,13 +30,13 @@ Alternatively, download it directly from [ghostty.org](https://ghostty.org). If 
 
 **2. Open the config file.**
 
-Open Ghostty, then press `Cmd+,`. This opens Ghostty's settings file in a text editor.
+Open Ghostty, click the menu bar, then go to **Ghostty > Settings**. This opens Ghostty's settings file in a text editor.
 
 Behind the scenes, that file lives at:
 ```
 ~/Library/Application Support/com.mitchellh.ghostty/config
 ```
-(The `~` means your home folder. You don't need to navigate there manually, `Cmd+,` does it for you.)
+(The `~` means your home folder. You don't need to navigate there manually, the menu does it for you.)
 
 **3. Add the theme.**
 
@@ -50,7 +50,7 @@ Want a different look instead? See the built-in theme option near the top of `gh
 
 **4. Reload Ghostty.**
 
-Press `Shift+Cmd+,` to apply the changes without restarting the app.
+Quit and reopen Ghostty to apply the changes.
 
 ## The `.zshrc` file
 
