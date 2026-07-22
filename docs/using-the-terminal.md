@@ -65,6 +65,22 @@ cd ~/Desktop/my-project
 | `cp file destination` | Copy a file |
 | `rm filename` | Delete a file. No undo, be careful |
 
+## A few more things that'll save you time
+
+**Tab completion:** start typing a command, file, or folder name, then press `Tab`. The terminal tries to finish it for you. Press `Tab` twice if there are multiple matches, it'll show you the options.
+
+**Up arrow for history:** press the `↑` (up arrow) key to bring back your last command. Keep pressing it to go further back. This is what the HISTORY settings in `.zshrc` are for.
+
+**Spaces in names:** if a file or folder name has a space in it (like `Application Support`), the terminal reads the space as the end of the name unless you handle it. Two ways to fix it:
+- Wrap the whole path in quotes: `"Application Support"`
+- Or put a `\` before the space: `Application\ Support`
+
+**Case matters:** unlike Finder, the terminal treats `File.txt` and `file.txt` as two different names. Typos in capitalization are a common reason a command says "not found."
+
+**Password prompts are invisible:** if a command starts with `sudo` (admin/superuser access) and asks for your password, nothing will appear on screen as you type, not even dots. That's normal, just type your password and press Enter.
+
+**Stuck in a program:** some commands (like `less` or `top`) take over the whole screen. Press `q` to quit them and get back to your normal prompt. `Ctrl + C` is for canceling a command that's still running, not for exiting one of these.
+
 ## What's your shell
 
 Zsh is the default shell on a Mac, the program that actually reads and runs the commands you type. This repo's `.zshrc` setup assumes you're using it.

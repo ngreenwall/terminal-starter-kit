@@ -2,6 +2,8 @@
 
 Repo-specific context for working in this project. See `~/.claude/CLAUDE.md` for global preferences.
 
+Check `docs/WORKLOG.md` for the current task list and recent session notes before starting work.
+
 ## What this repo is
 
 A small, public, beginner-facing starter kit: a Claude-inspired Ghostty terminal theme, a starter `.zshrc`, and a plain-language guide to using the terminal. Tied to a LinkedIn post. Audience is non-developers, not just engineers browsing GitHub.
