@@ -12,7 +12,7 @@ New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md)
 
 - `ghostty/ghostty-config.txt`: Settings for Ghostty. Colors, font, window padding, cursor style, and more. Every setting has an inline comment explaining what it does.
 - `ghostty/palette-preview.png`, `ghostty/terminal-default.png`, `ghostty/terminal-ghostty.png`: Screenshots of the theme, including the before/after above.
-- `zsh/starter.zshrc`: A starter `.zshrc` file. Runs every time you open a new terminal window, and sets up things like command history, tab completion, and a colored prompt. Also has inline comments explaining each part.
+- `zsh/starter-zshrc.txt`: A starter `.zshrc` file. Runs every time you open a new terminal window, and sets up things like command history, tab completion, and a colored prompt. Also has inline comments explaining each part.
 
 ## Ghostty: download and setup
 
@@ -61,7 +61,7 @@ open -e ~/.zshrc
 
 **2. Add the starter config.**
 
-Copy everything from this repo's `zsh/starter.zshrc` and paste it into your `~/.zshrc`. Save the file.
+Copy everything from this repo's `zsh/starter-zshrc.txt` and paste it into your `~/.zshrc`. Save the file.
 
 **3. Apply the changes.**
 
@@ -70,7 +70,7 @@ source ~/.zshrc
 ```
 *What this does:* reloads the file in your current terminal window immediately. Without this, the changes would only show up the next time you open a new window.
 
-Every section in `starter.zshrc` has a comment above it explaining what it does and why it's there, so it's worth a read through before you copy it over.
+Every section in `starter-zshrc.txt` has a comment above it explaining what it does and why it's there, so it's worth a read through before you copy it over.
 
 ## Why "starter"
 
