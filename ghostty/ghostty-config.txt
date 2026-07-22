@@ -1,9 +1,9 @@
 # =============================================================================
 # STARTER Ghostty Configuration
 # =============================================================================
-# To open this file: in Ghostty, click the menu bar, then Ghostty > Settings.
-# Changes take effect when you open a new window, or immediately for some
-# settings. Full documentation: https://ghostty.org/docs/config
+# To open this file: in Ghostty, press Cmd+, . Changes take effect when
+# you open a new window, or immediately for some settings.
+# Full documentation: https://ghostty.org/docs/config
 # =============================================================================
 
 
