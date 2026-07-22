@@ -1,34 +1,75 @@
-# Starter Dotfiles
+# Terminal Starter Kit
 
-A beginner-friendly starting point for setting up your Mac terminal. "Dotfiles" are configuration files (their names usually start with a dot, like `.zshrc`) that control how your tools look and behave. Most developers keep a personal collection of them; this repo is a clean, well-commented starter kit you can copy and make your own.
+A beginner-friendly starting point for making your Mac terminal look and feel better. Includes a Claude-inspired color theme for [Ghostty](https://ghostty.org) (a fast, modern terminal app) and a starter `.zshrc` (the config file for Zsh, the default command-line shell on macOS).
 
-Includes a Claude-inspired color theme for [Ghostty](https://ghostty.org) (a modern terminal app) and a beginner-friendly `.zshrc` (the config file for the Zsh shell, which is the default command-line shell on macOS).
+**Default Terminal**
+![Default Terminal](ghostty/terminal-default.png)
+
+**Ghostty, with this theme**
+![Ghostty with Claude-inspired theme](ghostty/terminal-ghostty.png)
 
 ## What's in here
 
-- `ghostty/ghostty.config`: Settings for the Ghostty terminal app. Colors, font, window padding, cursor style, and more. Every setting has a comment explaining what it does.
-- `ghostty/palette-preview.png`, `ghostty/terminal-default.png`, `ghostty/terminal-ghostty.png`: Screenshots showing what the color theme looks like, including a before/after comparison against the default terminal.
-- `zsh/starter.zshrc`: A starter version of the `.zshrc` file, which runs every time you open a new terminal window. Sets up things like command history, tab completion, and a simple colored prompt.
+- `ghostty/ghostty.config`: Settings for Ghostty. Colors, font, window padding, cursor style, and more. Every setting has an inline comment explaining what it does.
+- `ghostty/palette-preview.png`, `ghostty/terminal-default.png`, `ghostty/terminal-ghostty.png`: Screenshots of the theme, including the before/after above.
+- `zsh/starter.zshrc`: A starter `.zshrc` file. Runs every time you open a new terminal window, and sets up things like command history, tab completion, and a colored prompt. Also has inline comments explaining each part.
 
-## How to use it
+## Ghostty: download and setup
 
-### Ghostty config
+**1. Download it.**
 
-1. Install [Ghostty](https://ghostty.org) if you don't already have it.
-2. Open Ghostty, click the menu bar, then go to **Ghostty > Settings**. This opens Ghostty's config file on your Mac.
-3. Copy the contents of `ghostty/ghostty.config` from this repo into that file.
-4. Save, then open a new Ghostty window to see the changes. (What this does: applies the color palette, font settings, and window behavior to your terminal.)
+Easiest way, using [Homebrew](https://brew.sh) (a package manager, a tool for installing other software from the terminal):
 
-### Zsh config
+```shell
+brew install --cask ghostty
+```
 
-1. Your Zsh config file lives at `~/.zshrc` on your Mac (the `~` means your home folder). If you don't have one yet, you can create it.
-2. Copy the contents of `zsh/starter.zshrc` from this repo into `~/.zshrc`.
-3. In your terminal, run:
-   ```
-   source ~/.zshrc
-   ```
-   (What this does: reloads the file immediately, so you don't have to close and reopen your terminal to see the changes.)
+*What this does:* downloads and installs Ghostty, and keeps it updated automatically whenever you run `brew upgrade`.
+
+Alternatively, download it directly from [ghostty.org](https://ghostty.org). If you already installed it this way and later switch to Homebrew, drag it out of your `Applications` folder first, then run the command above.
+
+**2. Open the config file.**
+
+Open Ghostty, then press `Cmd+,`. This opens Ghostty's settings file in a text editor.
+
+Behind the scenes, that file lives at:
+```
+~/Library/Application Support/com.mitchellh.ghostty/config
+```
+(The `~` means your home folder. You don't need to navigate there manually, `Cmd+,` does it for you.)
+
+**3. Add the theme.**
+
+Copy everything from this repo's `ghostty/ghostty.config` and paste it into the file Ghostty opened. Save the file.
+
+**4. Reload Ghostty.**
+
+Press `Shift+Cmd+,` to apply the changes without restarting the app.
+
+## The `.zshrc` file
+
+`.zshrc` is a hidden config file for your terminal's shell (Zsh). It runs every time you open a new terminal window, and it's where you can set things like your prompt style, shortcuts (called aliases), and command history behavior.
+
+**1. Open it.**
+
+```shell
+open -e ~/.zshrc
+```
+*What this does:* opens your `.zshrc` file in TextEdit. If the file doesn't exist yet, this command creates it.
+
+**2. Add the starter config.**
+
+Copy everything from this repo's `zsh/starter.zshrc` and paste it into your `~/.zshrc`. Save the file.
+
+**3. Apply the changes.**
+
+```shell
+source ~/.zshrc
+```
+*What this does:* reloads the file in your current terminal window immediately. Without this, the changes would only show up the next time you open a new window.
+
+Every section in `starter.zshrc` has a comment above it explaining what it does and why it's there, so it's worth a read through before you copy it over.
 
 ## Why "starter"
 
-These files are meant to be a foundation, not a finished product. Every section has a comment explaining what it does and why, so you can read through it, decide what you like, and change anything to fit your own taste.
+These files are a foundation, not a finished product. Read through the inline comments, decide what you like, and change anything to fit your own taste.
