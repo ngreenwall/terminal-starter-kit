@@ -2,6 +2,8 @@
 
 A beginner-friendly starting point for making your Mac terminal look and feel better. Includes a Claude-inspired color theme for [Ghostty](https://ghostty.org) (a fast, modern terminal app) and a starter `.zshrc` (the config file for Zsh, the default command-line shell on macOS).
 
+New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md) before setting anything up below.
+
 **Default Terminal**
 ![Default Terminal](ghostty/terminal-default.png)
 
