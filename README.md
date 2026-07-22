@@ -4,11 +4,9 @@ A beginner-friendly starting point for making your Mac terminal look and feel be
 
 New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md) before setting anything up below.
 
-**Default Terminal**
-![Default Terminal](ghostty/terminal-default.png)
-
-**Ghostty, with this theme**
-![Ghostty with Claude-inspired theme](ghostty/terminal-ghostty.png)
+| Default Terminal | Ghostty, with this theme |
+|---|---|
+| ![Default Terminal](ghostty/terminal-default.png) | ![Ghostty with Claude-inspired theme](ghostty/terminal-ghostty.png) |
 
 ## What's in here
 
