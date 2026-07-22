@@ -1,6 +1,6 @@
 # Terminal Starter Kit
 
-A beginner-friendly starting point for making your Mac terminal look and feel better. Includes a Claude-inspired color theme for [Ghostty](https://ghostty.org) (a fast, modern terminal app) and a starter `.zshrc` (the config file for Zsh, the default command-line shell on macOS).
+A beginner-friendly starting point for making your Mac terminal look and feel better. Includes a Claude-inspired Ghostty theme (a color scheme for [Ghostty](https://ghostty.org), a fast, modern terminal app) and a starter `.zshrc` (the config file for Zsh, the default command-line shell on macOS).
 
 New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md) before setting anything up below. Ready to install actual dev tools (Homebrew, Node.js, Claude Code, etc.)? See [Dev Environment Starter Kit](https://github.com/ngreenwall/dev-environment-starter-kit).
 
