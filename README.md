@@ -10,7 +10,7 @@ New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md)
 
 ## What's in here
 
-- `ghostty/ghostty.config`: Settings for Ghostty. Colors, font, window padding, cursor style, and more. Every setting has an inline comment explaining what it does.
+- `ghostty/ghostty-config.txt`: Settings for Ghostty. Colors, font, window padding, cursor style, and more. Every setting has an inline comment explaining what it does.
 - `ghostty/palette-preview.png`, `ghostty/terminal-default.png`, `ghostty/terminal-ghostty.png`: Screenshots of the theme, including the before/after above.
 - `zsh/starter.zshrc`: A starter `.zshrc` file. Runs every time you open a new terminal window, and sets up things like command history, tab completion, and a colored prompt. Also has inline comments explaining each part.
 
@@ -40,9 +40,9 @@ Behind the scenes, that file lives at:
 
 **3. Add the theme.**
 
-Copy everything from this repo's `ghostty/ghostty.config` and paste it into the file Ghostty opened. Save the file.
+Copy everything from this repo's `ghostty/ghostty-config.txt` and paste it into the file Ghostty opened. Save the file.
 
-Want a different look instead? See the built-in theme option near the top of `ghostty.config`.
+Want a different look instead? See the built-in theme option near the top of `ghostty-config.txt`.
 
 **4. Reload Ghostty.**
 
