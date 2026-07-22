@@ -42,7 +42,7 @@ Behind the scenes, that file lives at:
 
 Copy everything from this repo's `ghostty/ghostty-config.txt` and paste it into the file Ghostty opened. Save the file.
 
-**Color palette used:**
+**Claude-inspired color palette:**
 ![Color palette preview](ghostty/palette-preview.png)
 
 Want a different look instead? See the built-in theme option near the top of `ghostty-config.txt`.
