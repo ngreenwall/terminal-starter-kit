@@ -42,6 +42,8 @@ Behind the scenes, that file lives at:
 
 Copy everything from this repo's `ghostty/ghostty.config` and paste it into the file Ghostty opened. Save the file.
 
+Want a different look instead? See the built-in theme option near the top of `ghostty.config`.
+
 **4. Reload Ghostty.**
 
 Press `Shift+Cmd+,` to apply the changes without restarting the app.
