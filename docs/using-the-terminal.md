@@ -1,6 +1,6 @@
 # Using the Terminal
 
-New to the terminal? Start here before setting up Ghostty or `.zshrc`.
+If you're new to the terminal, start here before setting up Ghostty or `.zshrc`.
 
 The terminal is a text-based way to control your computer. Instead of clicking buttons and menus, you type commands. It sounds harder, but it's faster once you know a few basics, and it's what tools like Ghostty and Claude Code run inside of.
 
@@ -83,7 +83,7 @@ cd ~/Desktop/my-project
 
 ## What's your shell
 
-Zsh is the default shell on a Mac, the program that actually reads and runs the commands you type. This repo's `.zshrc` setup assumes you're using it.
+Zsh is the default shell on a Mac, the program that reads and runs the commands you type. This repo's `.zshrc` setup assumes you're using it.
 
 Check which shell you're running:
 

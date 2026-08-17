@@ -2,7 +2,7 @@
 
 A beginner-friendly starting point for making your Mac terminal look and feel better. Includes a Claude-inspired Ghostty theme (a color scheme for [Ghostty](https://ghostty.org), a fast, modern terminal app) and a starter `.zshrc` (the config file for Zsh, the default command-line shell on macOS).
 
-New to the terminal? Start with [Using the Terminal](docs/using-the-terminal.md) before setting anything up below. Ready to install actual dev tools (Homebrew, Node.js, Claude Code, etc.)? See [Dev Environment Starter Kit](https://github.com/ngreenwall/dev-environment-starter-kit).
+If you're new to the terminal, start with [Using the Terminal](docs/using-the-terminal.md) before setting anything up below. To install dev tools (Homebrew, Node.js, Claude Code, etc.), see [Dev Environment Starter Kit](https://github.com/ngreenwall/dev-environment-starter-kit).
 
 | Default Terminal | Ghostty, with this theme |
 |---|---|
@@ -113,7 +113,7 @@ If something looks wrong or you just want your old setup back:
 
 - **Ghostty:** delete `~/Library/Application Support/com.mitchellh.ghostty/config`, then rename `config.backup` (from step 3 above) back to `config`. Quit and reopen Ghostty.
 - **Zsh:** delete `~/.zshrc`, then rename `~/.zshrc.backup` (from step 2 above) back to `~/.zshrc`. Run `source ~/.zshrc` or open a new terminal window.
-- Didn't make a backup? You can also just delete the parts you pasted in and save the file again.
+- Didn't make a backup? You can also delete the parts you pasted in and save the file again.
 
 ## Troubleshooting
 
